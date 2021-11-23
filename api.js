@@ -13,6 +13,9 @@ app.listen(3000, ()=>{
     console.log("Sever is now listening at port 3000");
 })
 
+
+
+
 client.connect();
 
 app.get('/users', (req, res)=>{
